@@ -11,7 +11,10 @@ import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;
 
 public class GraphVisualizer extends JFrame {
-    public GraphVisualizer(Graph<String, DefaultEdge> graph) {
+
+	private static final long serialVersionUID = 1L;
+
+	public GraphVisualizer(Graph<String, DefaultEdge> graph) {
         super("Call Graph Visualization");
         mxGraph jGraph = new mxGraph();
         Object parent = jGraph.getDefaultParent();

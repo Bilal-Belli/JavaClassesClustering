@@ -4,7 +4,6 @@ import com.mxgraph.layout.mxCircleLayout;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 import javax.swing.*;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -85,7 +84,7 @@ public class Parser {
         System.out.println("Groupes des classes selon les conditions et le parametre 'CP'");
         System.out.println("------------------------------------------------------------");
         int CP=3;
-        Exo2Qst2 clustersExo2Qst2 = new Exo2Qst2(graphCouplage,CP);
+        ClusteringAlgorithmConditione clustersExo2Qst2 = new ClusteringAlgorithmConditione(graphCouplage,CP);
         clustersExo2Qst2.clusterClasses();
         
         // Show the weighted coupling graph in a window
