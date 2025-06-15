@@ -1,5 +1,5 @@
 # Java Classes Clustering Tool
-> This is a tool that allows to visualise the relationships between Java classes in a Java project.
+> This is a tool that allows you to cluster classes in a java project with a criteria.
 
 ## Guide d'utilisation
 1. Cloner le projet : `git clone https://github.com/Bilal-Belli/U2FsdGVkX1.git` .
